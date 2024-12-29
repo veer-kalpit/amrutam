@@ -6,9 +6,10 @@ import FeesDropdown from "../fees";
 import LanguageDropdown from "../language";
 import FilterDropdown from "../filter";
 
-const index = () => {
+const Index = () => {
   return (
-    <div className="flex gap-[54px] self-center w-full justify-center py-4 border-y-[1px] border-[#EDEDED] ">
+    <div className="flex flex-wrap gap-4 self-center w-full justify-center py-4 border-y-[1px] border-[#EDEDED]">
+      {/* Dropdowns */}
       <ExpertiseDropdown />
       <GenderDropdown />
       <FeesDropdown />
@@ -18,4 +19,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
